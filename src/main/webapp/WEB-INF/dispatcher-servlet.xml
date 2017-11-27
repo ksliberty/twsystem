@@ -47,7 +47,7 @@
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
         <property name="driverClassName" value="oracle.jdbc.driver.OracleDriver" />
         <property name="url" value="jdbc:oracle:thin:@211.196.144.15:9999:orcl" />
-        <property name="username" value="scott" />
+        <property name="username" value="twsys" />
         <property name="password" value="1234" />
     </bean>
     <!--  2. 트랜잭션 관리자 등록 -->
